@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Game SCOOOREEEE!!!</title>
+</head>
+
+<body>
+    <header>Sport ball engaged</header>
+
+    <main class="container-fluid">
+        <div class="row ">
+            <Button class="btn btn-dark" onclick="reset()">Reset</Button>
+            <div class=" col-12 col-md-6 ">
+                <h1>Team one has <span id="teamOne"> 0 </span> points</h1>
+                <button class="btn-light w-50" onclick="oneScorePlus()">Team 1 Plus</button>
+                <button class="btn-light w-50" onclick="oneScoreMinus()">Team 1 Minus</button>
+                <img class="img-fluid img-size"
+                    src="https://tse2.mm.bing.net/th?id=OIP.IZ1bRSa4gahs_SRSrBrZ5AHaDX&pid=Api&P=0&w=357&h=162" alt="">
+
+            </div>
+            <div class=" col-12 col-md-6 ">
+                <h1>Team two has <span id="teamTwo"> 0 </span> points</h1>
+                <button class="btn-dark w-50" onclick="twoScorePlus()">Team 2 Plus</button>
+                <button class="btn-dark w-50" onclick="twoScoreMinus()">Team 2 Minus</button>
+                <img class="img-fluid img-size"
+                    src="https://tse3.mm.bing.net/th?id=OIP.qc9mp8qM1Ua3kC5uyiIcRAHaEK&pid=Api&P=0&w=317&h=178" alt="">
+
+
+                <div class="row ">
+                    <div class="col-12">
+                        <H1>Total: <span id="total">0</span></H1>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
