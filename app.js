@@ -2,9 +2,6 @@ let teamOneScore = 0
 
 let teamTwoScore = 0
 
-let totalScore = teamOneScore + teamTwoScore
-
-
 
 function oneScorePlus() {
     teamOneScore++
@@ -33,6 +30,7 @@ function draw() {
     teamOneScoreElem.innerText = teamOneScore
     let teamTwoScoreElem = document.getElementById('teamTwo')
     teamTwoScoreElem.innerText = teamTwoScore
-    let totalElem = document.getElementById('total')
-    totalElem.innerText = totalScore
+    let totalELem = document.getElementById('total')
+    totalELem.innerText = (teamOneScore + teamTwoScore)
 }
+
