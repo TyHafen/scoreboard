@@ -1,7 +1,6 @@
 let teamOneScore = 0
 
-let teamTwoScore = 0
-
+let teamTwoScore
 
 function oneScorePlus() {
     teamOneScore++
